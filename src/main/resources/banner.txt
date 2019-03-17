@@ -1,0 +1,2 @@
+application.title=Spring filed filter API
+application.version=1.0.0
