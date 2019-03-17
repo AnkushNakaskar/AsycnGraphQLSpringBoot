@@ -12,3 +12,8 @@ ForkJoinPool.commonPool-worker- for each article is different with Comments as w
 2019-03-17 13:46:52.170 [ INFO] [12093-(ForkJoinPool.commonPool-worker-3)] [com.core.graphql.resolver.object.article.GraphQLDataFetchers.lambda$null$5(GraphQLDataFetchers.java:78)]  Fetching Comments for Article :: 1
 2019-03-17 13:46:52.171 [ INFO] [12093-(ForkJoinPool.commonPool-worker-5)] [com.core.graphql.resolver.object.article.GraphQLDataFetchers.lambda$null$5(GraphQLDataFetchers.java:78)]  Fetching Comments for Article :: 2
 2019-03-17 13:46:52.171 [ INFO] [12093-(ForkJoinPool.commonPool-worker-4)] [com.core.graphql.resolver.object.article.GraphQLDataFetchers.lambda$null$3(GraphQLDataFetchers.java:69)]  Fetching Author for Article :: 2
+
+
+Check project SpringGraphQL for more understanding from spring boot starter for graphql point of view.
+Spring boot starter for graph ql does not support async in Resolver,So we used basic core functionality in data fether.
+
