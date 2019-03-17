@@ -17,3 +17,7 @@ ForkJoinPool.commonPool-worker- for each article is different with Comments as w
 Check project SpringGraphQL for more understanding from spring boot starter for graphql point of view.
 Spring boot starter for graph ql does not support async in Resolver,So we used basic core functionality in data fether.
 
+The CompletableFuture is only useful when you have  AsyncExecutionStrategy in creating 
+GraphQL.newGraphQL(graphQLSchema).queryExecutionStrategy(new AsyncExecutionStrategy()).build().
+
+By default queryExecutionStrategy is "AsyncExecutionStrategy" hence our code is working there are three other Strategies also.
