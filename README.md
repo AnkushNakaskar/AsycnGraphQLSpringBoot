@@ -21,3 +21,5 @@ The CompletableFuture is only useful when you have  AsyncExecutionStrategy in cr
 GraphQL.newGraphQL(graphQLSchema).queryExecutionStrategy(new AsyncExecutionStrategy()).build().
 
 By default queryExecutionStrategy is "AsyncExecutionStrategy" hence our code is working there are three other Strategies also.
+
+For more details : https://www.graphql-java.com/documentation/v12/execution/
